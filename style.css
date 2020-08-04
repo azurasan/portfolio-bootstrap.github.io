@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0; 
+	font-family: 'Poppins', sans-serif;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+#jumbotron{
+	background-color: rgba(0,0,0,0.9);
+	color: white;
+	height: 100vh;
+	background-image: url(img/2.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#jumbotron .intro img{
+	width: 15rem;
+	height: 15rem;
+}
+
+#jumbotron h1{
+	text-shadow: 3px 3px 5px black;
+}
+
+#jumbotron p{
+	font-size: 1.5rem;
+	text-shadow: 0.3rem 0.3rem 5px black;
+}
+
+#about{
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+	min-height: 25rem;
+}
+
+#about hr{
+	width: 100%;
+	border-top: 3px solid black;
+}
+
+#projects{
+	background-color: rgb(15,10,50);
+	color: white;
+}
+
+#projects hr{
+	border-top: 3px solid white;
+}
+
+#contact {
+	min-height: 30rem;
+}
+
+
+#contact hr{
+	border-top: 3px solid black;
+}
+
+#contact a{
+	font-size: 1.2rem;
+	display: block;
+	width: 20rem;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0,0,0,0.9);
+}
+
+#contact .boxs{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
